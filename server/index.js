@@ -18,7 +18,12 @@ app.use('/api/cards',cardsRoutes)
 
 const CONNECTION_URL=dbUrl
 const PORT = process.env.PORT || 1000;
-
+if(process.env.NODE_ENV==="production"){
+    app.use(express.static('build'))
+    app.get('*',(req,res)=>{
+        req.sendFile(path.resolve(__dirname,'build','index.html'))
+    })
+}
 mongoose.connect(CONNECTION_URL,{useNewUrlParser:true,useUnifiedTopology:true})
 .then(()=>app.listen(PORT,()=>console.log(`Running on port ${PORT}`)))
 .catch((error)=>console.log(error.message))
