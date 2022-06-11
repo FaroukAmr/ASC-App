@@ -31,7 +31,7 @@ const handleClick= ()=>{
     <React.Fragment>
       <AppBar sx={{ background: "#34568B" }}>
         <Toolbar>
-        <IconButton onClick={()=>{navigate('/home')}}> <SecurityOutlinedIcon sx={{ transform: "scale(2)" }} /> </IconButton>
+        <IconButton onClick={()=>{navigate('/')}}> <SecurityOutlinedIcon sx={{ transform: "scale(2)" }} /> </IconButton>
           
           {isMatch ? (
             <>

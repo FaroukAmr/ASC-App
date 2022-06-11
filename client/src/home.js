@@ -17,7 +17,7 @@ export default function Home() {
       <div id="cards" >
     <Card  sx={{ maxWidth: 345 }}>
         
-      <CardActionArea href="/signIn">
+      <CardActionArea >
         <CardMedia
           component="img"
           height="400"
@@ -35,7 +35,7 @@ export default function Home() {
       </CardActionArea>
     </Card>
     <Card  sx={{ maxWidth: 345 }}>
-      <CardActionArea href="/searchflight">
+      <CardActionArea >
         <CardMedia
           component="img"
           height="400"
@@ -56,7 +56,7 @@ export default function Home() {
       </CardActions>
     </Card>
     <Card  sx={{ maxWidth: 345 }}>
-      <CardActionArea href="/searchflight">
+      <CardActionArea >
         <CardMedia
           component="img"
           height="400"

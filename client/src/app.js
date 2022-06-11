@@ -32,13 +32,14 @@ const App = ()=>{
         <NavBar/>
         <Routes>   
             
-          <Route exact path="/" element={ <Home/> } />
+          
           <Route exact path="/signIn" element={ <SignIn/> } />
-          <Route exact path="/home" element={ <Home/> } />
           <Route exact path="/signUp" element={ <SignUp/> } />
           <Route exact path="/locks" element={ <Locks/> } />
           <Route exact path="/cards" element={ <Cards/> } />
           <Route exact path="/allCards" element={ <AllCards/> } />
+          <Route exact path="/" element={ <Home/> } />
+          <Route  path="*" element={ <Home/> } />
         </Routes>
         
         </UserContext.Provider>

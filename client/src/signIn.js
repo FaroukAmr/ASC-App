@@ -111,7 +111,7 @@ function SignIn() {
              
               handleClick1()
               setValue(response.data.data)
-              navigate("/home")
+              navigate("/")
             }
           }).catch((error)=>{
             console.log(error)

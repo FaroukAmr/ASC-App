@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/LockAppJS/static/css/main.d1ed0332.css",
-    "main.js": "/LockAppJS/static/js/main.ad91d2a2.js",
-    "static/media/img1.avif": "/LockAppJS/static/media/img1.13b0f120911f91d80840.avif",
-    "static/media/img2.avif": "/LockAppJS/static/media/img2.34902b9ddeabd7ce1121.avif",
-    "static/media/img3.avif": "/LockAppJS/static/media/img3.0ec8bfbc7fef89d89b10.avif",
-    "index.html": "/LockAppJS/index.html",
-    "main.d1ed0332.css.map": "/LockAppJS/static/css/main.d1ed0332.css.map",
-    "main.ad91d2a2.js.map": "/LockAppJS/static/js/main.ad91d2a2.js.map"
+    "main.css": "/static/css/main.d1ed0332.css",
+    "main.js": "/static/js/main.8580cd2d.js",
+    "static/media/img1.avif": "/static/media/img1.13b0f120911f91d80840.avif",
+    "static/media/img2.avif": "/static/media/img2.34902b9ddeabd7ce1121.avif",
+    "static/media/img3.avif": "/static/media/img3.0ec8bfbc7fef89d89b10.avif",
+    "index.html": "/index.html",
+    "main.d1ed0332.css.map": "/static/css/main.d1ed0332.css.map",
+    "main.8580cd2d.js.map": "/static/js/main.8580cd2d.js.map"
   },
   "entrypoints": [
     "static/css/main.d1ed0332.css",
-    "static/js/main.ad91d2a2.js"
+    "static/js/main.8580cd2d.js"
   ]
 }

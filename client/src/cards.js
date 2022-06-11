@@ -176,7 +176,7 @@ const Cards=()=>{
 
             console.log(res2.data)
         }) 
-        navigate("/home")
+        navigate("/")
         navigate("/cards")
         
 
