@@ -260,7 +260,8 @@ const Cards=()=>{
     return(
         <Container>
             <Paper elevation={10} style={paperStyle}>
-            <h1 id="cardtop">My Locks</h1>
+            {list.length===0?<h1 id="cardtop">Add Some Locks First</h1>:null}
+                {list.length!==0?<h1 id="cardtop">My Locks</h1>:null}
         
           {list.map(function(d,idx){
             return (<div id="cardsB" key={idx}>Lock id: {d._id}<br/> User id : {d.userid} <br/><Button variant="contained" onClick={()=>assignToLock(d)} >Assign to Lock</Button></div> )

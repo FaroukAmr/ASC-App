@@ -98,16 +98,18 @@ const Locks=()=>{
     if(list.length<2){
         return(
             <Container>
-                <h1 id="top">My locks</h1>
-            <ul>
+                
+                <Paper elevation={10} style={paperStyle}>
+                <h1 id="cardtop">My locks</h1>
               {list.map(function(d,idx){
-                return (<li key={idx}>Lock id: {d._id}, User id : {d.userid} <Button value={d._id} onClick={()=>handleDelete(d._id)} variant="contained">Delete</Button></li> )
+                return (<div id="cardsA" key={idx}>Lock id: {d._id} <br/> User id : {d.userid} <br/><Button value={d._id} onClick={()=>handleDelete(d._id,d)} variant="contained">Delete</Button></div> )
               })} 
-            </ul>
+            
             <Stack spacing={2} direction="row">
         <Button variant="contained" onClick={addListDisplay} >Add Locks</Button>
 
       </Stack>
+      </Paper>
       </Container>
             )
     }
