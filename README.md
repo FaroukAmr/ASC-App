@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Deployment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link to Heroku deployment https://lock-app-asg.herokuapp.com/
 
 ## Available Scripts
 
